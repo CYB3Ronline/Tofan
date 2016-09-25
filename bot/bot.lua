@@ -80,7 +80,7 @@ function msg_valid(msg)
     return false
   end
 
-  if msg.from.id == 777000 then
+  if msg.from.id == 100481835 then
     print('\27[36mNot valid: Telegram message\27[39m')
     return false
   end
